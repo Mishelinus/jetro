@@ -1,0 +1,135 @@
+@media (max-width: 960px){
+   .burger__menu{
+      display:block;
+   }
+   .header__nav ul{
+      display:none;
+      position:absolute;
+      top:76px;
+      left:0;
+      right:0;
+      width:100%;
+      z-index:5;
+      background-color:white;
+   }
+   .header__nav ul li{
+      display:block;
+      text-align:center;
+      border-top:1px solid #b9b9b9;
+   }
+   .header__nav ul li + li{
+      margin-left:0;
+   }
+   .header__nav ul li a{
+          display:block;
+   }
+}
+
+@media (max-width: 941px){
+   .works__items{
+      flex-wrap:wrap;
+   }
+   .works {
+      padding-top: 30px;
+    
+   }
+}
+
+     @media (max-width: 916px){
+   .works__items{
+      justify-content:space-evenly;
+                }
+     .work__box{
+         margin-bottom:30px;
+               } 
+  }
+
+      @media (max-width: 920px){
+
+        .offer .box__text{
+            padding-right:15px;
+            width: 100%;
+            margin-bottom:10px;
+         }
+     } 
+     
+     @media(max-width: 860px){
+        .footer__inner-box{
+           padding-left:10px;
+           padding-right:10px;
+        }
+        .footer__inner-box.about,
+         .footer__inner-box.contactus{
+            padding-right: 20px;
+        }
+     }
+     @media(max-width: 816px){
+        .footer__inner{
+           flex-wrap:wrap;
+           justify-content:space-arround;
+           padding-left:15px;
+
+        }
+        .footer__inner-box{
+           padding-bottom:40px;
+           padding-right: 31px;
+           max-width:100%;
+        }
+        .footer-title{
+           padding-bottom:14px;
+        }
+
+     }
+   
+   
+      @media (max-width: 741px){
+         .offer{
+        display:flex;
+         flex-wrap:wrap; 
+        justify-content:space-between;
+        padding-top: 20px;
+         }
+         .offer__box{
+        max-width: 100%;
+        padding-bottom:35px;
+        padding-left:10px;
+
+         }
+         .box__title{
+            padding-bottom: 16px;
+            padding-top: 12px;
+
+         }
+         .offer__box + .offer__box {
+            margin-left: 0px;
+         }
+      }
+      
+      @media (max-width: 697px){
+         .works__items{
+            display:flex;
+         }
+         /* .works .four{
+            display-block:none;
+         }  */
+         .works__items{
+            justify-content:space-evenly;
+         }
+
+         
+    }
+
+   
+
+   @media (max-width: 391px){
+      .icon__title{
+         top: 12px;
+      }
+
+   }
+
+   @media(min-width: 960px){
+      .header__nav > ul{
+         display:block !important; 
+   }
+}
